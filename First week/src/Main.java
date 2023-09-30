@@ -1,9 +1,15 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        int x = 5;
-        int y = 5 + 2 * (4 - 1 % 5); // = присвоение
-        x = x + 1;
-
+        Scanner scan = new Scanner(System.in);
+        int x = scan.nextInt();
+        int y = scan.nextInt(); // = присвоение
+        int sum = x + y;
+        System.out.println("sum = " + sum);
+        System.out.println("sum = " + x + y);
+        System.out.println(x + y + "sum = ");
+        System.out.println(sum);
         System.out.println(x);
         System.out.println(y);
     }
