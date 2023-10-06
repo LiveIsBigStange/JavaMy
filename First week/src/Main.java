@@ -2,15 +2,13 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        int x = scan.nextInt();
-        int y = scan.nextInt(); // = присвоение
-        int sum = x + y;
-        System.out.println("sum = " + sum);
-        System.out.println("sum = " + x + y);
-        System.out.println(x + y + "sum = ");
-        System.out.println(sum);
-        System.out.println(x);
-        System.out.println(y);
+
+        //Scanner scan = new Scanner(System.in);
+        //int x = scan.nextInt();
+        // + - plus; - - minus; % - mod; / - int =
+        // > - bigger; < - lower; >= - bigger or equal;<= - lower or equal;
+        // == - equal; != - not equal;
+        // && - and (if one of false equals false); || - or (if one of it is true equal true); ! - not
+
     }
 }
