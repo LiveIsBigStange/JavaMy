@@ -3,17 +3,51 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        //System.out.println("Hello world!");
-        //int age = scanner.nextInt();
-        //if(age >= 18){
-        //    System.out.println("adult");
-        //}else{
-        // System.out.println("child");
-        //}
-        //System.out.println("Finish");
-        int x = 109;
-        int v = scanner.nextInt();
-        int t = scanner.nextInt();
-        System.out.println();
+        //1
+//        int x = scanner.nextInt();
+//        int i = 0;
+//        while(i <= 100){
+//            System.out.print(i + " ");
+//            i += x;
+        //2
+//        int x = scanner.nextInt();
+//        int i = 0;
+//        int sum = 0;
+//        while (i <= x){
+//            sum += i;
+//            i++;
+//        }
+//        System.out.print("sum=" + sum);
+
+        //3
+//        int x = scanner.nextInt();
+//        int i = 0;
+//        int counter = 0;
+//        while (x > 0){
+//            counter += 1;
+//            x /= 10;
+//        }
+//        System.out.print("count=" + counter);
+
+        //4
+//        int x = scanner.nextInt();
+//        int i = 0;
+//        int sum = 0;
+//        while (x != 0){
+//            sum += x % 10;
+//            x /= 10;
+//        }
+//        System.out.print("sum = " + sum);
+        //5
+//        int x = scanner.nextInt();
+//        int max = 0;
+//        while (x != 0){
+//            if (x % 10 > max) {
+//                max = x % 10;
+//            }
+//            x /= 10;
+//
+//        }
+//        System.out.print(max);
     }
 }
